@@ -42,7 +42,8 @@ for idx in range(qty):
     crc =  crc32(idaapi.get_func_name(fnc.start_ea).encode())
     color_idx = crc / 2**32
     color = colorsys.hsv_to_rgb(color_idx, 0.3, 1)
-    fnc.color = rgb_to_int([int(255 * c) for c in color])
+    fnc.color = rgb_to_int(*[int(255 * c) for c in color])
     
     idaapi.update_func(fnc)
 ```
+
