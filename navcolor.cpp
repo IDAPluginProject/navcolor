@@ -179,13 +179,13 @@ bool plugin_ctx_t::uninstall()
 // initialize the plugin
 static plugmod_t *idaapi init()
 {
-  ida_addon_info_t addon;
+  addon_info_t addon;
   memset(&addon, 0, sizeof(addon));
   addon.id = "milankovo.navcolor";
   addon.name = "Navcolor";
   addon.producer = "Milankovo";
   addon.url = "https://github.com/milankovo/navcolor";
-  addon.version = "1.0.1";
+  addon.version = "1.0.2";
   register_addon(&addon);
   
   return new plugin_ctx_t;
