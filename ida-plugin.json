@@ -1,0 +1,35 @@
+{
+  "IDAMetadataDescriptorVersion": 1,
+  "plugin": {
+    "name": "navcolor",
+    "version": "1.0.1",
+    "entryPoint": "navcolor",
+    "description": "Enhances the navigation band by displaying function colors and allows setting function colors from the Functions window",
+    "license": "MIT",
+    "urls": {
+      "repository": "https://github.com/milankovo/navcolor"
+    },
+    "authors": [
+      {
+        "name": "Milankovo",
+        "email": "navcolor@noreply.github.com"
+      }
+    ],
+    "idaVersions": ">=9.0",
+    "platforms": [
+      "windows-x86_64",
+      "linux-x86_64",
+      "macos-x86_64",
+      "macos-aarch64"
+    ],
+    "categories": [
+      "ui-ux-and-visualization"
+    ],
+    "keywords": [
+      "navigation",
+      "color",
+      "visualization",
+      "functions"
+    ]
+  }
+}
