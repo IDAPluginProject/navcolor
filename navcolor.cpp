@@ -185,7 +185,7 @@ static plugmod_t *idaapi init()
   addon.name = "Navcolor";
   addon.producer = "Milankovo";
   addon.url = "https://github.com/milankovo/navcolor";
-  addon.version = "1.0.2";
+  addon.version = "1.0.3";
   register_addon(&addon);
   
   return new plugin_ctx_t;

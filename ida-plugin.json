@@ -2,7 +2,7 @@
   "IDAMetadataDescriptorVersion": 1,
   "plugin": {
     "name": "navcolor",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "entryPoint": "navcolor",
     "description": "Enhances the navigation band by displaying function colors and allows setting function colors from the Functions window",
     "license": "MIT",
@@ -30,6 +30,7 @@
       "color",
       "visualization",
       "functions"
-    ]
+    ],
+    "logoPath": "img/navband.png"
   }
 }
